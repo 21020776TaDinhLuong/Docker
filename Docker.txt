@@ -23,6 +23,10 @@ Alpine và Ubuntu là hai bản phân phối (distribution) của hệ điều h
 3. Quản lý gói: Ubuntu sử dụng hệ thống quản lý gói APT (Advanced Package Tool) để quản lý và cài đặt các gói phần mềm. Alpine sử dụng hệ thống quản lý gói APK, được tối ưu hóa cho kích thước nhỏ gọn và hiệu suất cao.
 
 4. Cấu trúc file hệ thống: Alpine sử dụng cấu trúc file hệ thống BusyBox, một công cụ chứa nhiều tiện ích trong một chương trình duy nhất, giúp giảm kích thước và tối ưu hóa tài nguyên. Ubuntu sử dụng cấu trúc file hệ thống chuẩn của Linux (ví dụ: /bin, /etc, /usr, ...).
+
+5. Bảo mật: Cả Alpine và Ubuntu đều chú trọng vào bảo mật, nhưng Alpine thường được coi là có mức độ bảo mật cao hơn do kích thước nhỏ gọn và hạn chế các thành phần không cần thiết.
+
+Tuy nhiên, cả Alpine và Ubuntu đều là các bản phân phối Linux phổ biến và có thể được sử dụng để triển khai ứng dụng trên nhiều môi trường khác nhau. Sự lựa chọn giữa hai bản phân phối này phụ thuộc vào yêu cầu và điều kiện cụ thể của dự án hoặc ứng dụng mà bạn đang làm việc.
 VNC (Virtual Network Computing) là một giao thức và phương thức để điều khiển và truy cập từ xa vào máy tính từ xa. Nó cho phép người dùng điều khiển một máy tính từ xa thông qua mạng, giúp họ xem và điều khiển màn hình và các tác vụ trên máy tính đó như thể họ đang ngồi trước máy tính đó.
 
 Điều quan trọng để hiểu về VNC là nó chia thành hai phần: máy chủ VNC (VNC server) và khách VNC (VNC client).
@@ -34,8 +38,3 @@ VNC (Virtual Network Computing) là một giao thức và phương thức để 
 Các ứng dụng VNC phổ biến bao gồm RealVNC, TightVNC và UltraVNC. Các ứng dụng này cung cấp tính năng như mã hóa dữ liệu, chia sẻ tệp tin và giao thức truyền thông an toàn để bảo vệ quyền riêng tư và bảo mật trong quá trình truyền dữ liệu.
 
 VNC rất hữu ích trong nhiều trường hợp, bao gồm hỗ trợ từ xa, quản lý hệ thống từ xa, công việc nhóm và truy cập từ xa vào máy tính cá nhân.
-
-5. Bảo mật: Cả Alpine và Ubuntu đều chú trọng vào bảo mật, nhưng Alpine thường được coi là có mức độ bảo mật cao hơn do kích thước nhỏ gọn và hạn chế các thành phần không cần thiết.
-
-Tuy nhiên, cả Alpine và Ubuntu đều là các bản phân phối Linux phổ biến và có thể được sử dụng để triển khai ứng dụng trên nhiều môi trường khác nhau. Sự lựa chọn giữa hai bản phân phối này phụ thuộc vào yêu cầu và điều kiện cụ thể của dự án hoặc ứng dụng mà bạn đang làm việc.
-
