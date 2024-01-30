@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  vnc-desktop:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '5901:5901'
+    environment:
+      - VNC_PASSWORD=123456789
+    volumes:
+      - ./data:/data
